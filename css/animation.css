@@ -1,0 +1,22 @@
+/* Animation burger-menu */
+
+@keyframes svipe-container-menu-active {
+    0% {
+        transform: translateY(-200%);
+    }
+
+    100% {
+    }
+}
+
+@keyframes svipe-container-menu-noactive {
+    0% {
+
+    }
+
+    100% {
+        opacity: 0;
+        display: none;
+        transform: translateY(-200%);
+    }
+}
